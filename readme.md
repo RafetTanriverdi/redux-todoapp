@@ -1,6 +1,6 @@
 # Redux Todo App
 
-![Untitled](/Client/src/todo-redux.gif).
+![Untitled](/Client/src/todo-redux.gif)
 
 ## Available Scripts
 

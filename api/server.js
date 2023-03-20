@@ -45,7 +45,7 @@ let todos = [
   },
   {
     id: nanoid(),
-    title: 'Learn Node JS',
+    title: 'Learn Node JS ',
     completed: false,
   },
 ];
