@@ -23,7 +23,8 @@ function TodoList() {
     }
   }
   const handleToggle = async(id,completed)=>{
-    await dispatch(toggleTodoAsync({id, data:{completed}}))  }
+    await dispatch(toggleTodoAsync({id, data:{completed}}))  
+  }
 
   if(isLoading){
   return <Loading/>
