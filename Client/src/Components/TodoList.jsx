@@ -33,6 +33,8 @@ function TodoList() {
     return <Error message={error} />
   }
 
+  
+
   return (
     <section className="main">
       <input className="toggle-all" type="checkbox" />
@@ -47,7 +49,7 @@ function TodoList() {
             <li key={item.id} className={item.completed ? "completed" : ""}>
               <div className="view">
                 <input className="toggle" type="checkbox" onChange={() => handleToggle(item.id,!item.completed)} checked={item.completed} />
-                <label> {item.title} </label>
+                <label > {item.title} </label>
                 <button className="destroy" onClick={() => handleDestroy(item.id)} ></button>
               </div>
             </li>
